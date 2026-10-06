@@ -1,6 +1,3 @@
-secret = 7  # Gizli sayımız
-
-guess = int(input("Guess the secret number: "))
-
-# Tahminin gizli sayıya eşit olup olmadığını kontrol et (True / False döner)
-print(guess == secret)
+secret_number = input("Enter a number: ")
+converted_number = int(secret_number)
+print(converted_number)
