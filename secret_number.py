@@ -1,3 +1,2 @@
-secret_number = input("Enter a number: ")
-converted_number = int(secret_number)
-print(converted_number)
+# Part 2: Secret number definition
+secretNum = 5
