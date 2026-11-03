@@ -1,11 +1,14 @@
-# Part 3: Count unique letters in a string
+# 1) Ask user for year input
+year_str = input("What year is this? ")
+year = int(year_str)
 
-s = "ece"
-unique_chars = ""
+# 2) Extract each digit, cast to int, and sum them up using a for loop
+total_sum = 0
+for digit in year_str:
+    total_sum += int(digit)
 
-for char in s:
-    if char not in unique_chars:
-        unique_chars += char
+# 3) Divide the sum by the number of digits in the year input
+average = total_sum / len(year_str)
 
-count = len(unique_chars)
-print(f"Number of unique letters in '{s}' is: {count}")
+print(f"Sum of digits: {total_sum}")
+print(f"Average of digits: {average}")
