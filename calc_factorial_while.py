@@ -1,4 +1,3 @@
-# Part 5 - Task 2: Factorial using a while loop
 
 n = int(input("Enter a number to calculate its factorial: "))
 

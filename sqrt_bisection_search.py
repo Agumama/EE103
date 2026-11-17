@@ -1,5 +1,4 @@
-# sqrt_bisection_search.py
-from secret_data import secret_number
+secret_number = 330206066
 
 epsilon = 0.01
 num_guesses = 0
